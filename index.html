@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Survey Form</title>
+   <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+   <!-- Title of the survey form -->
+   <h1 id="title">Course Survey Form</h1>
+   <!-- Description of the survey form -->
+   <p id="description">Thank you for taking the time to help us improve the platform</p>
+   
+      <!-- Survey form starts here -->
+      <form action="" id="survey-form">
+         <!-- Fieldset for personal information -->
+         <fieldset class="info">
+            <!-- Label and input for name -->
+            <label id="name-label" for="name">Enter Your Name:
+               <input id="name" name="name" type="text" placeholder="Devid Warner" required /></label>
+            <!-- Label and input for email -->
+            <label id="email-label" for="email">Enter Your Email:
+               <input id="email" name="email" type="email" placeholder="abc@email.com" required /></label>
+            <!-- Label and input for age -->
+            <label id="number-label" for="number">Age
+               <input type="number" name="number" id="number" min="13" max="99" placeholder="10" required /></label>
+         </fieldset>
+
+         <!-- Fieldset for dropdown menu -->
+         <fieldset class="dropdown-menu">
+            <!-- Label and select dropdown -->
+            <label for="dropdown">Which One You Prefer
+               <select name="dropdown" id="dropdown">
+                  <option>Select One</option>
+                  <option>UI/UX Designer</option>
+                  <option>Frontend</option>
+                  <option>Backend</option>
+               </select>
+            </label>
+         </fieldset>
+
+         <!-- Fieldset for checkbox options -->
+         <fieldset class="option">
+            <!-- Legend for checkbox options -->
+            <legend>Choose Language and Framework</legend>
+            <!-- Checkboxes for different programming languages -->
+            <label for="javascript"><input type="checkbox" name="language" id="javascript" value="JavaScript">
+               JavaScript </label>
+            <label for="java"><input type="checkbox" name="language" id="java" value="Java"> Java </label>
+            <label for="python"><input type="checkbox" name="language" id="python" value="Python"> Python</label>
+            <label for="nodejs"><input type="checkbox" name="language" id="nodejs" value="Node.js"> Node.js</label>
+            <label for="react"><input type="checkbox" name="language" id="react" value="React"> React</label>
+            <label for="angular"><input type="checkbox" name="language" id="angular" value="Angular"> Angular</label>
+         </fieldset>
+
+         <!-- Fieldset for rating options -->
+         <fieldset class="rate-us">
+            <!-- Legend for rating options -->
+            <legend>Rate Us</legend>
+            <!-- Radio buttons for rating -->
+            <label for="one"> <input type="radio" name="rate-us" id="one" value="1">One</label>
+            <label for="two"><input type="radio" name="rate-us" id="two" value="2">Two</label>
+            <label for="three"> <input type="radio" name="rate-us" id="three" value="3">Three</label>
+            <label for="four"> <input type="radio" name="rate-us" id="four" value="4">Four</label>
+            <label for="five"> <input type="radio" name="rate-us" id="five" value="5">Five</label>
+         </fieldset>
+
+         <!-- Fieldset for comments -->
+         <fieldset class="text-area">
+            <!-- Label and textarea for comments -->
+            <label for="textarea"><legend>Any comments or suggestions? </l>
+            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+         </label></fieldset>
+         
+         <!-- Submit button for the form -->
+         <input id="submit" type="submit" value="Submit" />
+      </form>
+   
+
+</body>
+
+</html>
