@@ -1,0 +1,100 @@
+/* Resetting default margin and padding */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    background-color: #C6ACB8;
+}
+
+/* Styling for the form title */
+#title {
+    text-align: center;
+    margin: 20px auto;
+    margin-bottom: 0px;
+    color: #a38ebd;
+    background-color: #391467;
+    width: 650px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Styling for the description */
+#description {
+    margin: 3px auto;
+    text-align: center;
+    color: #391467;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+/* Styling for the entire form */
+#survey-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #5D3587;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: #BDD0B9;
+}
+/* Common styles for labels */
+label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Specific styling for information input fields */
+.info label {
+    margin-top: 15px;
+}
+
+
+/* Styling for fieldsets */
+fieldset {
+    margin-bottom: 20px;
+}
+
+/* Styling for input fields, select dropdown, and textarea */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+/* Styling for submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #A367B1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 15px 0px;
+}
+
+
+/* Removing borders for certain fieldsets */
+.info,
+.text-area,
+.dropdown-menu {
+    border: none;
+}
+
+
+/* Styling for individual options and ratings */
+.option label,
+.rate-us label {
+    margin-top: 3px;
+}
