@@ -32,7 +32,7 @@ The form is styled for clarity and accessibility, with modern colors and easy na
 ---
 
 ## 🎨 Preview
-*(Add screenshot or link here)
+
 
 ---
 
